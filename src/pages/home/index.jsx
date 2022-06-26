@@ -5,6 +5,7 @@ import { data } from "../../data";
 import { Form, Button } from "react-bootstrap";
 import "./styles.scss";
 import axios from "axios";
+import Footer from "../../components/footer";
 
 export default function Home() {
   const [list, setList] = useState([]);
@@ -133,6 +134,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

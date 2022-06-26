@@ -1,0 +1,11 @@
+.footerContainer {
+    width: 100%;
+    padding: 50px 50px;
+    background: gray;
+    .content{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
